@@ -12,13 +12,13 @@ const Hero = () => {
           <div className="main-buttons">
             <button className="buttons-m">Get in touch</button>
             <button className="bn54">
-              <span class="bn54span">View Resume</span>
+              <span className="bn54span">View Resume</span>
             </button>
           </div>
         </div>
       </div>
       <div className="main2">
-        <div className="blue-p1">
+        <div className="blue-p1" data-aos="slide-up">
           <p className="about">ABOUT ME</p>
           <p className="about-w">
             I'm a passionate Frontend Web Developer with a love for all things
@@ -29,7 +29,7 @@ const Hero = () => {
             technology. Join me on this captivating digital adventure!
           </p>
         </div>
-        <div className="blue-p2"></div>
+        <div className="blue-p2" data-aos="slide-up"></div>
       </div>
     </>
   );
