@@ -1,0 +1,147 @@
+.exp {
+  text-align: center;
+  color: #cecece;
+  font-size: 35px;
+}
+.proj1,
+.proj2 {
+  display: flex;
+  justify-content: space-evenly;
+}
+.proj2 {
+  margin-top: 40px;
+}
+.proj1-2,
+.proj1-1 {
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  width: 500px;
+  height: 420px;
+  background: linear-gradient(rgb(29, 49, 69) 0%, rgb(12, 33, 54) 100%);
+  box-shadow: rgba(29, 49, 69, 0.25) 0px 4px 80px 0px,
+    rgba(0, 0, 0, 0.25) 0px 4px 16px 0px,
+    rgba(255, 255, 255, 0.05) 0px 16px 40px 0px inset,
+    rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset;
+  border-radius: 30px;
+}
+.proj-img {
+  align-self: center;
+  width: 85%;
+}
+.proj-oro {
+  color: white;
+  font-size: 25px;
+  font-weight: 700;
+}
+.proj-oro2 {
+  color: #ced6de;
+  font-size: 13px;
+  text-align: justify;
+  line-height: 1.2rem;
+}
+@media screen and (min-width: 100px) and (max-width: 299px) {
+  .exp {
+    font-size: 22px;
+  }
+  .proj1,
+  .proj2 {
+    flex-direction: column;
+  }
+}
+@media screen and (min-width: 300px) and (max-width: 340px) {
+  .exp {
+    font-size: 27px;
+  }
+  .proj1,
+  .proj2 {
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .proj1-1 {
+    margin-bottom: 40px;
+  }
+  .proj1-1,
+  .proj1-2 {
+    width: 85vw;
+
+    height: 300px;
+  }
+  .proj-oro {
+    font-size: 15px;
+    font-weight: 700;
+  }
+  .proj-oro2 {
+    font-size: 11px;
+    line-height: 1.1rem;
+  }
+  .proj-img {
+    align-self: center;
+    width: 75%;
+  }
+}
+@media screen and (min-width: 341px) and (max-width: 380px) {
+  .exp {
+    font-size: 30px;
+  }
+  .proj1,
+  .proj2 {
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .proj1-1 {
+    margin-bottom: 40px;
+  }
+  .proj1-1,
+  .proj1-2 {
+    width: 85vw;
+
+    height: 300px;
+  }
+  .proj-oro {
+    font-size: 15px;
+    font-weight: 700;
+  }
+  .proj-oro2 {
+    font-size: 11px;
+    line-height: 1.1rem;
+  }
+  .proj-img {
+    align-self: center;
+    width: 75%;
+  }
+}
+@media screen and (min-width: 381px) and (max-width: 500px) {
+  .exp {
+    font-size: 30px;
+  }
+  .proj1,
+  .proj2 {
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .proj1-1 {
+    margin-bottom: 40px;
+  }
+  .proj1-1,
+  .proj1-2 {
+    width: 85vw;
+
+    height: 300px;
+  }
+  .proj-oro {
+    font-size: 16px;
+    font-weight: 700;
+  }
+  .proj-oro2 {
+    font-size: 12px;
+    line-height: 1.1rem;
+  }
+  .proj-img {
+    align-self: center;
+    width: 75%;
+  }
+}

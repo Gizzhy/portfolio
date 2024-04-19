@@ -5,6 +5,13 @@
   justify-content: center;
   align-items: center;
 }
+.main-start {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 
 .main-oro {
   background-image: linear-gradient(
@@ -23,6 +30,7 @@
 .main-oro2 {
   color: #ced6de;
   font-size: 20px;
+  text-align: center;
 }
 .buttons-m:hover {
   border: 1px white solid;
@@ -190,7 +198,18 @@
     transform: translate3d(0, 0, 0) translateZ(0);
   }
 }
+.soocials {
+  margin-top: 30px;
+  width: 50%;
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: center;
+  align-items: center;
+}
 
+.sols {
+  width: 50%;
+}
 /* buttons styling */
 /* buttons styling */
 /* buttons styling */
@@ -199,6 +218,9 @@
 @media screen and (min-width: 100px) and (max-width: 299px) {
   .main {
     height: 300px;
+  }
+  .main-start {
+    width: 100%;
   }
   .main-oro {
     font-size: 30px;
@@ -228,7 +250,7 @@
   }
   .blue-p1 {
     width: 90vw;
-    height: 350px;
+    height: 270px;
     border-radius: 10px;
   }
   .blue-p2 {
@@ -251,6 +273,9 @@
   .main {
     height: 300px;
   }
+  .main-start {
+    width: 100%;
+  }
   .main-oro2 {
     font-size: 16px;
     text-align: center;
@@ -268,7 +293,7 @@
   }
   .blue-p1 {
     width: 90vw;
-    height: 340px;
+    height: 260px;
   }
   .blue-p2 {
     width: 90vw;
@@ -299,6 +324,9 @@
   .main {
     height: 300px;
   }
+  .main-start {
+    width: 100%;
+  }
   .main-oro2 {
     font-size: 16px;
     text-align: center;
@@ -314,8 +342,9 @@
     align-items: center;
   }
   .blue-p1 {
+    margin-top: 40px;
     width: 90vw;
-    height: 310px;
+    height: 250px;
   }
   .blue-p2 {
     width: 360px;
@@ -328,6 +357,13 @@
     font-size: 13px;
     line-height: 1.4rem;
   }
+  .soocials {
+    width: 70%;
+  }
+
+  .sols {
+    width: 60%;
+  }
 }
 @media screen and (min-width: 381px) and (max-width: 500px) {
   .main-oro {
@@ -336,6 +372,9 @@
   .main-oro2 {
     font-size: 16px;
     text-align: center;
+  }
+  .main-start {
+    width: 100%;
   }
   .main {
     height: 350px;
@@ -352,7 +391,7 @@
   }
   .blue-p1 {
     width: 95vw;
-    height: 310px;
+    height: 250px;
   }
   .blue-p2 {
     width: 95vw;
@@ -364,5 +403,12 @@
     padding: 0 10px;
     font-size: 15px;
     line-height: 1.5rem;
+  }
+  .soocials {
+    width: 70%;
+  }
+
+  .sols {
+    width: 60%;
   }
 }
