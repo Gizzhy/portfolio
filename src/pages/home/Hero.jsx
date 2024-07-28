@@ -41,7 +41,7 @@ const Hero = () => {
           </div>
         </div>
       </div>
-      <div className="main2">
+      {/* <div className="main2">
         <div className="blue-p1" data-aos="slide-up">
           <p className="about">ABOUT</p>
           <p className="about-w">
@@ -52,7 +52,7 @@ const Hero = () => {
           </p>
         </div>
         <div className="blue-p2" data-aos="slide-up"></div>
-      </div>
+      </div> */}
     </>
   );
 };

@@ -1,0 +1,45 @@
+.projectFirst {
+    height: 1200px;
+    padding: 30px 100px;
+  }
+.projectSecond{
+    display: flex;
+}  
+.projectSecond2, .projectSecond3{
+   width: 50%;
+   margin-top: 35px;
+}  
+
+.projectImage{
+    width: 70%;
+}
+.projectWords{
+    color: #cecece;
+    font-size: 22px;
+    font-weight: 700px;
+}
+
+.projectButton{
+    width: 200px;
+    height: 70px;
+    border: 0;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 8px;
+    color: #cecece;
+
+    background: linear-gradient(rgb(29, 49, 69) 0%, rgb(12, 33, 54) 100%);
+    box-shadow: rgba(29, 49, 69, 0.25) 0px 4px 80px 0px,
+      rgba(0, 0, 0, 0.25) 0px 4px 16px 0px,
+      rgba(255, 255, 255, 0.05) 0px 16px 40px 0px inset,
+      rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset;
+      cursor: pointer;
+}
+.projectButton:hover{
+    background: linear-gradient(rgb(14, 24, 34) 0%, rgb(6, 18, 29) 100%);
+    box-shadow: rgba(29, 49, 69, 0.25) 0px 4px 80px 0px,
+      rgba(0, 0, 0, 0.25) 0px 4px 16px 0px,
+      rgba(255, 255, 255, 0.05) 0px 16px 40px 0px inset,
+      rgba(150, 150, 150, 0.1) 0px 1px 1px 0px inset;
+      cursor: pointer;
+}

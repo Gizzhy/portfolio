@@ -1,0 +1,41 @@
+.work{
+    text-align: center;
+    color: #cecece;
+  font-size: 35px;
+}
+.work0{
+    background: linear-gradient(rgb(29, 49, 69) 0%, rgb(12, 33, 54) 100%);
+    box-shadow: rgba(29, 49, 69, 0.25) 0px 4px 80px 0px,
+      rgba(0, 0, 0, 0.25) 0px 4px 16px 0px,
+      rgba(255, 255, 255, 0.05) 0px 16px 40px 0px inset,
+      rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset;
+      height: 620px;
+      padding: 30px 0;
+}
+.workSplit{
+    display: flex;
+    width: 100%;
+    padding: 0 110px 0 110px;
+}
+.workSplit1, .workSplit2{
+    width: 50%;
+}
+.work2{
+    color: #cecece;
+font-size: 20px;
+}
+.contactArea0{
+    margin-top: 60px;
+}
+.contactArea{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    // justify-content: center;
+}
+.contactThings{
+    color: #ced6de;
+    margin-left: 25px;
+    font-size: 20px;
+    font-weight: 600;
+}

@@ -1,30 +1,76 @@
 import "./styles/body.css";
+import styles from "./styles/body.module.scss";
 import travel from "../../assets/travel.png";
 import simi from "../../assets/simi.png";
-import codesystic from "../../assets/codesystic.png";
-import yoruba from "../../assets/yoruba.png";
+import codesystic from "../../assets/codesystic1.png";
+import isokan from "../../assets/isokan1.png";
+import Skills from "./components/Skills";
+import Work from "./components/Work";
 
 const Body = () => {
   return (
     <>
       <div className="akoko">
-        <p className="exp">Experience</p>
+        <p className="exp">Skills & Tools</p>
+        <Skills />
       </div>
-      <div className="akoko">
+      <div className="akoko3">
+        <p className="exp">Projects</p>
+      </div>
+      <div className={styles.projectFirst}>
+        <div className={styles.projectSecond}>
+          <div className={styles.projectSecond2}>
+            <img
+              src={codesystic}
+              className={styles.projectImage}
+              alt="codesystic"
+            />
+          </div>
+          <div className={styles.projectSecond3}>
+            <p className={styles.projectWords}>Codesystic</p>
+            <p className={styles.projectWords}>
+              Information Technology Solutions provider. We provide
+              cost-effective services on Mobile app Development, Ui/Ux Designs,
+              Responsive Web Design, BackEnd Development, Graphics Designs,
+              Crypto-Web3 insights & Investments.
+            </p>
+            <p className={styles.projectWords}>
+              <span className={styles.projectSpan}>STACK: </span>React,
+              Bootstrap, React Router, SCSS
+            </p>
+            <button className={styles.projectButton}>View Git Repo</button>
+          </div>
+        </div>
+        <div className={styles.projectSecond}>
+          <div className={styles.projectSecond2}>
+            <p className={styles.projectWords}>Egbe Isokan Yoruba Germany</p>
+            <p className={styles.projectWords}>
+              We are non-governmental, non-profit, non-political, and
+              non-religious organisation to foster Socio-cul-tural development
+              of the Yoruba race in Diaspora. The association aims at producing
+              an atmosphere for Yoruba’s and other interested people to share
+              and discover Yoruba culture
+            </p>
+            <p className={styles.projectWords}>
+              <span className={styles.projectSpan}>STACK: </span>React, React
+              Router
+            </p>
+            <button className={styles.projectButton}>View Git Repo</button>
+          </div>
+          <div className={styles.projectSecond3}>
+            <img
+              src={isokan}
+              className={styles.projectImage}
+              alt="Isokan yoruba germany"
+            />
+          </div>
+        </div>
+      </div>
+      {/* <div className="akoko3">
         <p className="exp">Projects</p>
       </div>
       <div className="proj-area">
-        <div className="proj1">
-          <div className="proj1-1">
-            <img src={codesystic} alt="codesystic" className="proj-img" />
-            <p className="proj-oro">Codesystic</p>
-            <p className="proj-oro2">
-              Codesystic is a Information Technology Solutions provider. We
-              provide cost-effective services on Mobile app Development, Ui/Ux
-              Designs, Responsive Web Design, BackEnd Development, Graphics
-              Designs, Crypto-Web3 insights & Investments.
-            </p>
-          </div>
+        
           <div className="proj1-2">
             <img src={simi} alt="codesystic" className="proj-img" />
             <p className="proj-oro">Diffshadesofsimmie</p>
@@ -58,7 +104,8 @@ const Body = () => {
             </p>
           </div>
         </div>
-      </div>
+      </div> */}
+      <Work />
     </>
   );
 };
