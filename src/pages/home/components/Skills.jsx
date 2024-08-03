@@ -21,56 +21,56 @@ const Skills = () => {
       <div className={styles.skills1}>
         <div className={styles.skills2}>
           <div className={styles.skills3}>
-            <FaHtml5 color="#ced6de" font-size="55px" />
+            <FaHtml5 color="#ced6de" fontSize="55px" />
             <span className={styles.skillsText}>HTML5</span>
           </div>
           <div className={styles.skills3}>
-            <DiCss3 color="#ced6de" font-size="55px" />
+            <DiCss3 color="#ced6de" fontSize="55px" />
             <span className={styles.skillsText}>CSS3</span>
           </div>
           <div className={styles.skills3}>
-            <SiJavascript color="#ced6de" font-size="55px" />
+            <SiJavascript color="#ced6de" fontSize="55px" />
             <span className={styles.skillsText}>Javascript</span>
           </div>
           <div className={styles.skills3}>
-            <FaReact color="#ced6de" font-size="55px" />
+            <FaReact color="#ced6de" fontSize="55px" />
             <span className={styles.skillsText}>React</span>
           </div>
         </div>
 
         <div className={styles.skills2}>
           <div className={styles.skills3}>
-            <FaPython color="#ced6de" font-size="55px" />
+            <FaPython color="#ced6de" fontSize="55px" />
             <span className={styles.skillsText}>Python</span>
           </div>
           <div className={styles.skills3}>
-            <RiNextjsFill color="#ced6de" font-size="55px" />
+            <RiNextjsFill color="#ced6de" fontSize="55px" />
             <span className={styles.skillsText}>Nextjs</span>
           </div>
           <div className={styles.skills3}>
-            <TbApi color="#ced6de" font-size="55px" />
+            <TbApi color="#ced6de" fontSize="55px" />
             <span className={styles.skillsText}>REST API</span>
           </div>
           <div className={styles.skills3}>
-            <IoMdGitMerge color="#ced6de" font-size="55px" />
+            <IoMdGitMerge color="#ced6de" fontSize="55px" />
             <span className={styles.skillsText}>Git</span>
           </div>
         </div>
         <div className={styles.skills2}>
           <div className={styles.skills3}>
-            <RiTailwindCssFill color="#ced6de" font-size="55px" />
+            <RiTailwindCssFill color="#ced6de" fontSize="55px" />
             <span className={styles.skillsText}>Tailwind</span>
           </div>
           <div className={styles.skills3}>
-            <SiPycharm color="#ced6de" font-size="55px" />
+            <SiPycharm color="#ced6de" fontSize="55px" />
             <span className={styles.skillsText}>Pycharm</span>
           </div>
           <div className={styles.skills3}>
-            <VscVscode color="#ced6de" font-size="55px" />
+            <VscVscode color="#ced6de" fontSize="55px" />
             <span className={styles.skillsText}>Vscode</span>
           </div>
           <div className={styles.skills3}>
-            <FaBootstrap color="#ced6de" font-size="55px" />
+            <FaBootstrap color="#ced6de" fontSize="55px" />
             <span className={styles.skillsText}>Bootstrap</span>
           </div>
         </div>

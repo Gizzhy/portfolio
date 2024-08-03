@@ -42,7 +42,7 @@ const Body = () => {
             <button className={styles.projectButton}>View Git Repo</button>
           </div>
         </div>
-        <div className={styles.projectSecond}>
+        <div className={styles.projectSecondd}>
           <div className={styles.projectSecond2}>
             <p className={styles.projectWordss}>Egbe Isokan Yoruba Germany</p>
             <p className={styles.projectWords}>
@@ -89,7 +89,7 @@ const Body = () => {
             <button className={styles.projectButton}>View Git Repo</button>
           </div>
         </div>
-        <div className={styles.projectSecond}>
+        <div className={styles.projectSecondd}>
           <div className={styles.projectSecond2}>
             <p className={styles.projectWordss}>Shades of Simi</p>
             <p className={styles.projectWords}>
@@ -110,23 +110,21 @@ const Body = () => {
             />
           </div>
         </div>
-        <div className={styles}></div>
-        <button className={styles.projectButton2}>
-          View all <IoArrowRedoSharp />
-        </button>
+        <div className={styles.projectButtonArea}>
+          <button className={styles.projectButton2}>
+            View all <IoArrowRedoSharp />
+          </button>
+        </div>
       </div>
       {/* <div className="akoko3">
-        <p className="exp">Projects</p>
-      </div>
-            <p className="proj-oro">Travel Wings</p>
+      
             <p className="proj-oro2">
               Embark on your next adventure with us at TravelWings. Explore
               endless destinations and find the best flight deals tailored to
               your journey. Let us be your wings to the world. Book your ticket
               today and start your unforgettable voyage.
             </p>
-          </div>
-        </div>
+         
       </div> */}
       <Work />
     </>

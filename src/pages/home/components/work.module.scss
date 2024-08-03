@@ -14,8 +14,8 @@
 }
 .workSplit{
     display: flex;
-    width: 100%;
-    padding: 0 110px 0 110px;
+    // width: 100%;
+    padding: 0 80px;
 }
 .workSplit1, .workSplit2{
     width: 50%;
@@ -38,4 +38,39 @@ font-size: 20px;
     margin-left: 25px;
     font-size: 20px;
     font-weight: 600;
+}
+
+// general styling
+@media screen and (min-width: 100px) and (max-width: 650px) {
+    .workSplit{
+        flex-direction: column;
+        padding: 0 20px;
+    }
+    .workSplit1, .workSplit2{
+        width: 100%;
+    }
+    .workSplit2{
+margin-top: 30px;
+    }
+}
+// general styling
+
+
+@media screen and (min-width: 100px) and (max-width: 299px) {}
+@media screen and (min-width: 300px) and (max-width: 340px) {
+}
+@media screen and (min-width: 341px) and (max-width: 380px) {
+}
+@media screen and (min-width: 381px) and (max-width: 500px) {
+    .work0{
+          height: 1200px;
+          padding: 30px 0;
+    }
+    .contactThings{
+        margin-left: 25px;
+        font-size: 18px;
+    }
+    .workIcon{
+        font-size: 40px;
+    }
 }

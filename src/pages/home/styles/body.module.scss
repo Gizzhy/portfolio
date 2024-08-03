@@ -2,7 +2,7 @@
     height: 1680px;
     padding: 30px 100px;
   }
-.projectSecond{
+.projectSecond, .projectSecondd{
     display: flex;
 }  
 .projectSecond2, .projectSecond3{
@@ -43,6 +43,11 @@
       rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset;
       cursor: pointer;
 }
+.projectButtonArea{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
 .projectButton2{
     width: 200px;
     height: 70px;
@@ -51,7 +56,6 @@
     font-weight: 600;
     border-radius: 8px;
     color: #cecece;
-margin: 0 auto;
     background: linear-gradient(rgb(29, 49, 69) 0%, rgb(12, 33, 54) 100%);
     box-shadow: rgba(29, 49, 69, 0.25) 0px 4px 80px 0px,
       rgba(0, 0, 0, 0.25) 0px 4px 16px 0px,
@@ -66,4 +70,63 @@ margin: 0 auto;
       rgba(255, 255, 255, 0.05) 0px 16px 40px 0px inset,
       rgba(150, 150, 150, 0.1) 0px 1px 1px 0px inset;
       cursor: pointer;
+}
+
+// general styling
+@media screen and (min-width: 100px) and (max-width: 650px) {
+    .projectFirst {
+        height: 3000px;
+        padding: 0 20px;
+      }
+    .projectSecond{
+flex-direction: column;
+// flex-direction: column-reverse;
+justify-content: center;
+    } 
+    .projectSecondd{
+         flex-direction: column-reverse;
+justify-content: center;
+    }
+    .projectSecond2, .projectSecond3{
+        width: 100%;
+        margin-top: 35px;
+     }
+     .projectImage{
+        width: 100%;
+    }
+}
+// general styling
+
+
+@media screen and (min-width: 100px) and (max-width: 299px) {}
+@media screen and (min-width: 300px) and (max-width: 340px) {
+}
+@media screen and (min-width: 341px) and (max-width: 380px) {
+}
+@media screen and (min-width: 381px) and (max-width: 500px) {
+    .projectFirst {
+        height: 2700px;
+      }
+    .projectButton{
+        width: 150px;
+        height: 53px;
+        font-size: 16px;
+        font-weight: 600;
+    }
+    .projectButton2{
+        width: 175px;
+        height: 65px;
+        font-size: 17px;
+
+    }
+    .projectWords{
+text-align: justify;
+        font-size: 16px;
+        font-weight: 700px;
+    }
+    .projectWordss{
+
+        font-size: 18px;
+        font-weight: 700px;
+    }
 }
