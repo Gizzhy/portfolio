@@ -2,9 +2,7 @@ import "./styles/hero.css";
 import git from "../../assets/github.svg";
 import x from "../../assets/x.svg";
 import insta from "../../assets/insta.svg";
-
 import maill from "../../assets/maill.svg";
-
 import link from "../../assets/linkedin.svg";
 
 const Hero = () => {

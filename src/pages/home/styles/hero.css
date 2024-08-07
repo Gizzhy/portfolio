@@ -316,13 +316,17 @@
     font-size: 12px;
   }
 }
-
+@media screen and (min-width: 341px) and (max-width: 350px) {
+  .main {
+    height: 395px !important;
+  }
+}
 @media screen and (min-width: 341px) and (max-width: 380px) {
   .main-oro {
     font-size: 40px;
   }
   .main {
-    height: 300px;
+    height: 350px;
   }
   .main-start {
     width: 100%;

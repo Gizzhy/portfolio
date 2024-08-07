@@ -58,10 +58,65 @@ margin-top: 30px;
 
 @media screen and (min-width: 100px) and (max-width: 299px) {}
 @media screen and (min-width: 300px) and (max-width: 340px) {
+    .work{
+        font-size: 25px;
+     }
+      .work2{
+         font-size: 18px;
+          line-height: 1.8rem;
+     }
+ 
+  .work0{
+         height: 1200px;
+         padding: 30px 0;
+   }
+   .contactThings{
+    font-weight: 400;
+      margin-left: 10px;
+      font-size: 14px;
+  }
+   .workIcon{
+       font-size: 40px;
+   }
 }
+@media screen and (min-width: 341px) and (max-width: 350px) {
+    .contactThings{
+        font-weight: 400;
+          margin-left: 20px !important;
+          font-size: 16px !important;
+      }
+  }
 @media screen and (min-width: 341px) and (max-width: 380px) {
+    .contactThings{
+        font-weight: 400;
+          margin-left: 15px;
+          font-size: 15px;
+      }
+    .work{
+       font-size: 25px;
+    }
+     .work2{
+        font-size: 18px;
+         line-height: 1.8rem;
+    }
+
+ .work0{
+        height: 1200px;
+        padding: 30px 0;
+  }
+ 
+  .workIcon{
+      font-size: 40px;
+  }
 }
 @media screen and (min-width: 381px) and (max-width: 500px) {
+ .work{
+      font-size: 27px;
+    }
+    .work2{
+    font-size: 19px;
+    line-height: 1.9rem;
+    }
     .work0{
           height: 1200px;
           padding: 30px 0;

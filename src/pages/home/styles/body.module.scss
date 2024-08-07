@@ -100,8 +100,58 @@ justify-content: center;
 
 @media screen and (min-width: 100px) and (max-width: 299px) {}
 @media screen and (min-width: 300px) and (max-width: 340px) {
+    .projectFirst {
+        height: 2700px;
+      }
+    .projectButton{
+        width: 150px;
+        height: 53px;
+        font-size: 16px;
+        font-weight: 600;
+    }
+    .projectButton2{
+        width: 175px;
+        height: 65px;
+        font-size: 17px;
+
+    }
+    .projectWords{
+text-align: justify;
+        font-size: 16px;
+        font-weight: 700px;
+    }
+    .projectWordss{
+
+        font-size: 18px;
+        font-weight: 700px;
+    }
 }
 @media screen and (min-width: 341px) and (max-width: 380px) {
+    .projectFirst {
+        height: 2700px;
+      }
+    .projectButton{
+        width: 150px;
+        height: 53px;
+        font-size: 16px;
+        font-weight: 600;
+    }
+    .projectButton2{
+        width: 175px;
+        height: 65px;
+        font-size: 17px;
+
+    }
+    .projectWords{
+text-align: justify;
+        font-size: 16px;
+        font-weight: 700px;
+    }
+    .projectWordss{
+
+        font-size: 18px;
+        font-weight: 700px;
+    }
 }
 @media screen and (min-width: 381px) and (max-width: 500px) {
     .projectFirst {

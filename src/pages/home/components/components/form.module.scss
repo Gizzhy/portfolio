@@ -49,21 +49,73 @@ font-weight: 600;
     padding-left: 20px;
     font-size: 18px;
 }
-
-@media screen and (min-width: 381px) and (max-width: 500px) {
+@media screen and (min-width: 300px) and (max-width: 340px) {
+    .formLabel{
+        font-size: 15px;
+    }
     .formBody{
         height: 50px;
-        width: 360px;
+        width: 85vw;
         margin: 20px 0;
     }
     .formBody2{
         height: 120px;
-        width: 360px;
+        width: 85vw;
         margin: 20px 0;
     }
     .formButton{
-        width: 368px;
+        font-size: 15px;
+        width: 86vw;
+        height: 65px;
+    }
+    ::placeholder{
+        padding-left: 20px;
+        font-size: 15px;
+    }
+    .formBody2:focus, .formBody:focus{
+        border: 2px solid #cecece;
+        }
+}
+@media screen and (min-width: 341px) and (max-width: 380px) {
+    .formBody{
+        height: 50px;
+        width: 85vw;
+        margin: 20px 0;
+    }
+    .formBody2{
+        height: 120px;
+        width: 85vw;
+        margin: 20px 0;
+    }
+    .formButton{
+        width: 86vw;
         height: 70px;
+    }
+    ::placeholder{
+        padding-left: 20px;
+        font-size: 16px;
+    }
+    .formBody2:focus, .formBody:focus{
+        border: 2px solid #cecece;
+        }
+}
+
+@media screen and (min-width: 381px) and (max-width: 500px) {
+    .formBody{
+        height: 50px;
+        width: 85vw;
+
+        margin: 20px 0;
+    }
+    .formBody2{
+        height: 120px;
+        width: 85vw;
+
+        margin: 20px 0;
+    }
+    .formButton{
+        width: 86vw;
+        height: 60px;
     }
     ::placeholder{
 
