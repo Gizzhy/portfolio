@@ -39,7 +39,9 @@ const Body = () => {
               <span className={styles.projectSpan}>STACK: </span>React,
               Bootstrap, React Router, SCSS
             </p>
-            <button className={styles.projectButton}>View Git Repo</button>
+            <a href="https://github.com/Gizzhy/techmaven">
+              <button className={styles.projectButton}>View Git Repo</button>
+            </a>
           </div>
         </div>
         <div className={styles.projectSecondd}>
@@ -56,7 +58,9 @@ const Body = () => {
               <span className={styles.projectSpan}>STACK: </span>React, React
               Router
             </p>
-            <button className={styles.projectButton}>View Git Repo</button>
+            <a href="https://github.com/Gizzhy/Egbe-yoruba">
+              <button className={styles.projectButton}>View Git Repo</button>
+            </a>
           </div>
           <div className={styles.projectSecond3}>
             <img
@@ -86,7 +90,9 @@ const Body = () => {
               <span className={styles.projectSpan}>STACK: </span>React, NEXTjs,
               Tailwind
             </p>
-            <button className={styles.projectButton}>View Git Repo</button>
+            <a href="https://github.com/Gizzhy/strart">
+              <button className={styles.projectButton}>View Git Repo</button>
+            </a>
           </div>
         </div>
         <div className={styles.projectSecondd}>
@@ -100,7 +106,9 @@ const Body = () => {
             <p className={styles.projectWords}>
               <span className={styles.projectSpan}>STACK: </span>React
             </p>
-            <button className={styles.projectButton}>View Git Repo</button>
+            <a href="https://github.com/Gizzhy/similadeshades">
+              <button className={styles.projectButton}>View Git Repo</button>
+            </a>
           </div>
           <div className={styles.projectSecond3}>
             <img

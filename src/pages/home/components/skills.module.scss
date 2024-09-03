@@ -73,3 +73,19 @@ display: flex;
       margin-bottom: 40px;
   }
 }
+@media screen and (min-width: 501px) and (max-width: 550px) {
+  .skills2{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    }
+  .skillsText{
+    color: #ced6de;
+    font-size: 16px;
+    font-weight: 500;
+    margin-left: 6px;
+  }
+  .iconSkilss{
+    font-size: 30px;
+  }
+}

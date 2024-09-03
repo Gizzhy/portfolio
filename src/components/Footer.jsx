@@ -6,6 +6,7 @@ export default function Footer() {
       <div className={styles.foot1}>
         <p className={styles.footWords}>© 2024 Gideon Akinlotan</p>
       </div>
+
     </>
   );
 }

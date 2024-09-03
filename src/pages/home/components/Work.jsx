@@ -11,7 +11,7 @@ import Form from "./components/Form";
 export default function Work() {
   return (
     <>
-      <div className={styles.work0}>
+      <div className={styles.work0} id="workTogether">
         <p className={styles.work}>Let's Work together !</p>
         <div className={styles.workSplit}>
           <div className={styles.workSplit1}>
@@ -19,9 +19,11 @@ export default function Work() {
               Liked my work? I’m currently open for remote work as Frontend
               React Developer.
             </p>
-            <button className="bn54">
-              <span className="bn54span">View Resume</span>
-            </button>
+            <a href="AKINLOTAN GIDEON - CV.pdf">
+              <button className="bn54">
+                <span className="bn54span">View Resume</span>
+              </button>
+            </a>
             <div className={styles.contactArea0}>
               <a href="https://wa.me/2347010190783">
                 <div className={styles.contactArea}>

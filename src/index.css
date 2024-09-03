@@ -1,3 +1,7 @@
+:root {
+  color-scheme: light dark;
+}
+
 body {
   background-color: #040615;
   font-family: "Inter", sans-serif;

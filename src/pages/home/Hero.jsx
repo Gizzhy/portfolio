@@ -15,10 +15,14 @@ const Hero = () => {
             I’m a FrontEnd Developer, Data Scientist & Digital Enthusiast.
           </p>
           <div className="main-buttons">
-            <button className="buttons-m">Get in touch</button>
-            <button className="bn54">
-              <span className="bn54span">View Resume</span>
-            </button>
+            <a href="#workTogether">
+              <button className="buttons-m">Get in touch</button>
+            </a>
+            <a href="AKINLOTAN GIDEON - CV.pdf">
+              <button className="bn54">
+                <span className="bn54span">View Resume</span>
+              </button>
+            </a>
           </div>
           <div className="soocials">
             <a href="https://github.com/Gizzhy">

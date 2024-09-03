@@ -148,7 +148,6 @@ text-align: justify;
         font-weight: 700px;
     }
     .projectWordss{
-
         font-size: 18px;
         font-weight: 700px;
     }
@@ -179,4 +178,21 @@ text-align: justify;
         font-size: 18px;
         font-weight: 700px;
     }
+}
+@media screen and (min-width: 501px) and (max-width: 550px) {
+    .projectWords{
+        text-align: justify;
+                font-size: 16px;
+                font-weight: 700px;
+            }
+            .projectWordss{
+                font-size: 18px;
+                font-weight: 700px;
+            }
+            .projectButton{
+                width: 150px;
+                height: 53px;
+                font-size: 16px;
+                font-weight: 600;
+            }
 }
