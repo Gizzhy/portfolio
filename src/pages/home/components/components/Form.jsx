@@ -5,7 +5,11 @@ import styles from "./form.module.scss";
 export default function Form() {
   const [state, handleSubmit] = useForm("movaepjw");
   if (state.succeeded) {
-    return <p>Thanks for joining!</p>;
+    return (
+      <p>
+        Thank you for reaching out! I’ll get back to you as soon as possible.
+      </p>
+    );
   }
   return (
     <>
@@ -38,7 +42,7 @@ export default function Form() {
         <label htmlFor="message" className={styles.formLabel}>
           Message
         </label>
-        <br/>
+        <br />
         <textarea
           id="message"
           name="message"
