@@ -81,10 +81,8 @@ const Body = () => {
           <div className={styles.projectSecond3}>
             <p className={styles.projectWordss}>Strart</p>
             <p className={styles.projectWords}>
-              Information Technology Solutions provider. We provide
-              cost-effective services on Mobile app Development, Ui/Ux Designs,
-              Responsive Web Design, BackEnd Development, Graphics Designs,
-              Crypto-Web3 insights & Investments.
+              A basic e-commerce website built with nextjs whereby order can be
+              added to cart and redirects to whatsapp with order details.
             </p>
             <p className={styles.projectWords}>
               <span className={styles.projectSpan}>STACK: </span>React, NEXTjs,
@@ -119,9 +117,11 @@ const Body = () => {
           </div>
         </div>
         <div className={styles.projectButtonArea}>
-          <button className={styles.projectButton2}>
-            View all <IoArrowRedoSharp />
-          </button>
+          <a href="../projects">
+            <button className={styles.projectButton2}>
+              View all <IoArrowRedoSharp />
+            </button>
+          </a>
         </div>
       </div>
       {/* <div className="akoko3">

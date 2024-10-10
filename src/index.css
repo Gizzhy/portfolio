@@ -7,5 +7,9 @@ body {
   font-family: "Inter", sans-serif;
 }
 a {
-  text-decoration: none;
+  text-decoration: none !important;
+}
+a:link,
+a:visited {
+  text-decoration: none; /* Optional: Remove underline */
 }
